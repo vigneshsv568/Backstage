@@ -4,6 +4,11 @@ kind: Component
 metadata:
   name: counter-service
   description: A simple counter service vi1234
+  annotations:
+    github.com/project-slug: harshadnawathe/springboot-kotlin-service
+    backstage.io/techdocs-ref: dir:.
+    # prometheus.io/rule: memUsage
+    prometheus.io/alert: all
   tags:
     - kotlin
 spec:
