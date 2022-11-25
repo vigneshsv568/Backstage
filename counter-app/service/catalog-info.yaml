@@ -3,7 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: counter-service
-  description: A simple counter service vi1234
+  description: A simple counter service
   annotations:
     github.com/project-slug: harshadnawathe/springboot-kotlin-service
     backstage.io/techdocs-ref: dir:.
