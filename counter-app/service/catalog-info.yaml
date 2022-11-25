@@ -3,7 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: counter-service
-  description: A simple counter service
+  description: A simple counter service vi1234
   tags:
     - kotlin
 spec:
