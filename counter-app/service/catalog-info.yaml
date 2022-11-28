@@ -9,6 +9,8 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     # prometheus.io/rule: memUsage
     prometheus.io/alert: all
+    jenkins.io/job-full-name: "instanceName:github-organization-project-name/job-name"
+
   tags:
     - kotlin
 spec:
