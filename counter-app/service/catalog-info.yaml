@@ -5,7 +5,7 @@ metadata:
   name: counter-service
   description: A simple counter service
   annotations:
-    github.com/project-slug: harshadnawathe/springboot-kotlin-service
+    github.com/project-slug: vigneshsv568/Backstage
     backstage.io/techdocs-ref: dir:.
     # prometheus.io/rule: memUsage
     # prometheus.io/alert: all
