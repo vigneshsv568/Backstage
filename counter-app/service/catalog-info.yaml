@@ -8,7 +8,9 @@ metadata:
     github.com/project-slug: harshadnawathe/springboot-kotlin-service
     backstage.io/techdocs-ref: dir:.
     # prometheus.io/rule: memUsage
-    prometheus.io/alert: all
+    # prometheus.io/alert: all
+    prometheus.io/rule: memUsage|component,node_memory_Active_bytes|instance,sum by (instance) (node_cpu_seconds_total)|instance
+    prometheus.io/alert: 'Excessive Memory Usage'
     jenkins.io/job-full-name: "instanceName:github-organization-project-name/job-name"
 
   tags:
